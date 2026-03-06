@@ -6,10 +6,11 @@ venv/
 .env
 
 # Data & DB
-*.db
+# Removing retail.db and product_segments.csv from ignore so they can be pushed for deployment
+# *.db
+# outputs/*.csv
 *.csv
 data/
-outputs/*.csv
 
 # Streamlit
 .streamlit/
