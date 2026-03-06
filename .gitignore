@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data & DB
+*.db
+*.csv
+data/
+outputs/*.csv
+
+# Streamlit
+.streamlit/
+streamlit.log
+
+# System & Backups
+backups/
+.DS_Store
